@@ -1,0 +1,12 @@
+Source: ros-humble-rmf-cmake-uncrustify
+Section: misc
+Priority: optional
+Maintainer: Yadunund Vijay <yadunund@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-copyright <!nocheck>, ros-humble-ament-cmake-core, ros-humble-ament-cmake-lint-cmake <!nocheck>, ros-humble-ament-cmake-test, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-rmf-cmake-uncrustify
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ament-cmake-test, ros-humble-ament-uncrustify, ros-humble-ros-workspace
+Description: ament_cmake_uncrustify with support for parsing a config file.
